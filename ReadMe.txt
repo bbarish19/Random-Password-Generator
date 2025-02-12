@@ -1,32 +1,44 @@
-# Random Password Generator
+Random Password Generator
 
-The Random Password Generator is a command-line tool that generates strong and random passwords for users.
+## Overview
+The Random Password Generator is a Python-based tool that allows users to generate secure and random passwords based on their preferred length and character types. It includes options for uppercase letters, lowercase letters, numbers, and special characters. This tool is designed to help users create strong passwords for their accounts and systems.
 
 ## Features
+- Generate random passwords with custom length.
+- Include uppercase letters, lowercase letters, numbers, and special characters based on user preferences.
+- Password is copied to the clipboard after generation for easy use.
+- User-friendly command-line interface (CLI).
+- The welcome screen is shown only once on the first run.
+- Option to generate multiple passwords in a single session.
 
-- User Input: Allows users to specify the length of the password and customize the character set.
-- Password Generation: Generates a random password based on the user's input.
-- Display and Copy: Displays the generated password and provides an option to copy it to the clipboard.
-- Error Handling: Handles invalid input and displays appropriate error messages.
+## Requirements
+- Python 3.6 or higher
+- **pyperclip** library for clipboard functionality (Install using `pip install pyperclip`)
 
-## Getting Started
+## Installation
+1. **Clone the repository** (if using a version control system like Git):
+    ```bash
+    git clone https://github.com/yourusername/Random-Password-Generator.git
+    ```
 
-### Prerequisites
+2. **Download the files** directly to your system.
 
-- Python 3.x
-- pip
+3. **Install Python** (if you don't already have it installed):
+    - [Download Python](https://www.python.org/downloads/)
 
-### Usage
+4. **Install required dependencies**:
+    Open a terminal and run:
+    ```bash
+    pip install pyperclip
+    ```
 
-1. Run the program:
-2. Follow the prompts to enter the desired password length and character set preferences.
-3. The generated password will be displayed on the command line. Optionally, you can copy it to the clipboard.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- The `pyperclip` package: https://pypi.org/project/pyperclip/
-1. Clone the repository:
+## Usage
+1. Open the folder where the `RandPassGen.py` file is located.
+2. Run the script via the command line:
+    ```bash
+    python RandPassGen.py
+    ```
+3. The tool will display a welcome screen with an ASCII art logo and program description (this is shown only once during the first run).
+4. The program will prompt you for the desired password length and whether to include uppercase letters, lowercase letters, numbers, and special characters.
+5. A random password will be generated based on your inputs, and it will be copied to your clipboard.
+6. You will be asked if you want to generate another password. Enter `y` to generate a new password or `n` to exit the program.
