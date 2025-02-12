@@ -17,9 +17,7 @@ The Random Password Generator is a Python-based tool that allows users to genera
 
 ## Installation
 1. **Clone the repository** (if using a version control system like Git):
-    ```bash
-    git clone https://github.com/yourusername/Random-Password-Generator.git
-    ```
+    ```bash git clone https://github.com/bbarish19/Random-Password-Generator.git```
 
 2. **Download the files** directly to your system.
 
@@ -28,9 +26,7 @@ The Random Password Generator is a Python-based tool that allows users to genera
 
 4. **Install required dependencies**:
     Open a terminal and run:
-    ```bash
-    pip install pyperclip
-    ```
+    ```bash pip install pyperclip```
 
 ## Usage
 1. Open the folder where the `RandPassGen.py` file is located.
